@@ -7,5 +7,9 @@ const message = document.getElementById('message')
 const form = document.getElementById("form");
 
 window.addEventListener("load", () => {
-    form.reset();
+    fName.value = "";
+    lName.value = "";
+    email.value = "";
+    subject.value = "";
+    message.value = "";
 })
