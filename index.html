@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional recording, mixing, and mastering services with Danny Oliver. Based out of Bloomfield, NJ">
+    <title>Danny Oliver</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <img id="portrait" src="images/danny_rec.jpg" alt="Danny Oliver as a toddler">
+        </div>
+        <section id="about">
+            <h1>Danny Oliver <br><span class="white">Recording Engineer</span></h1>
+            <div class="about-text">
+                <p><span class="white bold">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Nulla, magni consequuntur. Veniam expedita nesciunt saepe possimus, ex cum consequatur rem in inventore modi iure, assumenda amet dolore. Ullam, aperiam quo.</p>
+                <p><span class="white bold">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Nulla, magni consequuntur. Veniam expedita nesciunt saepe possimus, ex cum consequatur rem in inventore modi iure, assumenda amet dolore. Ullam, aperiam quo.</p>
+                <p><span class="white bold">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Nulla, magni consequuntur. Veniam expedita nesciunt saepe possimus, ex cum consequatur rem in inventore modi iure, assumenda amet dolore. Ullam, aperiam quo.</p>
+            </div>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <div class="service-container">
+                <div class="service">
+                    <h3>Recording</h3>
+                    <img class="service-icon" src="images/microphone-icon.png" alt="microphone icon">
+                    <p>Cost: $45/hr</p>
+                </div>
+                <div class="service">
+                    <h3>Mixing</h3>
+                    <img class="service-icon" src="images/control-panel-icon.png" alt="adjust settings icon">
+                    <p>Cost: $44/hr</p>
+                </div>
+                <div class="service">
+                    <h3>Mastering</h3>
+                    <img class="service-icon" src="images/headphone-icon.png" alt="headphone icon">
+                    <p>Cost: $46/hr</p>
+                </div>
+            </div>
+        </section>
+        <section id="work">
+            <h2>Work</h2> 
+            <div class="video-super-container">
+                <div class="video-outer-container">
+                    <h3>"Upbeat" by Infraction&nbsp;|<span class="credit">| Mixed, Mastered</span></h3>
+                    <div class="video-container">
+                        <iframe width="300" height="169" src="https://www.youtube.com/embed/eEqCEFuQqF8?si=fkngWB_F_I40II5V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="video-outer-container">
+                    <h3>"Retro Pop" by Infraction&nbsp;|<span class="credit">| Engineered</span></h3>
+                    <div class="video-container">
+                        <iframe width="300" height="169" src="https://www.youtube.com/embed/VJJGoDJ8F00?si=_fAtWObkNw-JA4wV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="video-outer-container">
+                    <h3>"Cinematic" by Infraction&nbsp;|<span class="credit">| Engineered, Mixed</span></h3>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/GDTDqsmTyIQ?si=rlizv2oDhnGaLZPW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                <div class="form-container">
+                    <!-- Replace with your Access Key -->
+                    <input type="hidden" name="access_key" value="addf4412-298c-4f0d-9d9d-1c182018a6e8">
+                
+                    <!-- Form Inputs. Each input must have a name="" attribute -->
+                    
+                    <div class="inner-form form-left">
+                        <label for="first-name">First Name *</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your first name">
+                    
+                        
+                        <label for="email">Email *</label>
+                        <input type="email" name="email" id="email" placeholder="Your email"  required>
+                    </div>
+                    
+                    <div class="inner-form form-right">
+                        <label>Last Name *</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your first name">
+                        <label >Subject</label>
+                        <input type="text" name="subject" id="subject" placeholder="Subject"  required>
+                    </div>
+                    
+                    <div class="inner-form form-bottom">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="Your message" rows="6" required></textarea>
+                        <!-- Honeypot Spam Protection -->
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                
+                    <!-- Custom Confirmation / Success Page -->
+                    <input type="hidden" name="redirect" value="#about">
+                
+                        <button type="submit" id="submit-btn">Submit Form</button>
+                        <div class="h-captcha" data-captcha="true"></div>
+                    </div>
+                </div>  
+                
+            
+            </form>
+        </section>
+        
+    </main>
+    <footer>
+        <div id="links">
+            <a href="https://www.instagram.com/rawbluerecording/" target="_blank"><img class="icon" src="images/instagram-white-icon.png" alt="instagram logo"></a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
