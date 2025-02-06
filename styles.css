@@ -15,7 +15,8 @@ html {
 
 body {
     font-family: Garamond, 'Times New Roman', serif;
-    background: linear-gradient(#5390D9, #7400B8);
+    background: #0504aa;
+    color: whitesmoke;
     background-repeat: no-repeat;
     margin: 0;
 }
@@ -23,7 +24,7 @@ body {
 
 
 header {
-    background-color: #7400B8;
+    background-color: white;
     margin-bottom: 2rem;
     width: 100%;
     border-bottom: 2px solid black;
@@ -49,15 +50,15 @@ nav ul {
 nav ul a {
     font-family: "Barriecito", serif;
     text-decoration: none;
-    color: white;
+    color: #0504aa;
     font-weight: 700;
     font-size: 1.3rem;
     margin: 0;
 }
 
 nav ul a:hover, nav ul a:focus {
-    border-bottom: 1px solid yellow;
-    color: yellow;
+    border-bottom: 1px solid black;
+    color: black;
 }
 
 .container {
@@ -93,6 +94,7 @@ nav ul a:hover, nav ul a:focus {
 .service {
     text-align: center;
     background-color: whitesmoke;
+    color: black;
     width: 40%;
     max-width: 250px;
     border-radius: 1rem;
@@ -144,7 +146,7 @@ h2 {
 h2:before, 
 h2:after {
     content: "";
-    border-top: 0.3em double black;
+    border-top: 0.3em double whitesmoke;
     align-self: center;
 }
 
@@ -169,8 +171,9 @@ p {
 }
 
 
-.bold {
+.p-accent {
     font-weight: bold;
+    font-size: 1.6rem;
 }
 
 footer {
@@ -290,7 +293,7 @@ form label {
     font-weight: bold;
     font-size: 1.2rem;
     background-color: whitesmoke;
-    color: #7400B8;
+    color: #0504aa;
     
 }
 
