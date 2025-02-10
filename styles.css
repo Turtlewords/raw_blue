@@ -210,6 +210,10 @@ footer {
     filter: hue-rotate(180deg);
 }
 
+#setmore-img:hover, #setmore-img:focus {
+    opacity: .7;
+}
+
 .icon {
     width: 2.5rem;
 }
