@@ -188,10 +188,14 @@ p {
 }
 
 footer {
+   margin-top: 1rem;
+    padding: 1rem;
+}
+
+#links {
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 1rem;
 }
 
 /* Images */
@@ -207,7 +211,11 @@ footer {
 }
 
 .icon {
-    width: 3rem;
+    width: 2.5rem;
+}
+
+.icon:hover, .icon:focus {
+    opacity: .7;
 }
 
 
