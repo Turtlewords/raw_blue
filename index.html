@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -29,9 +32,7 @@
         <section id="about">
             <h1>Raw <span class="white">Blue </span>Recording </h1>
             <div class="about-text">
-                <p><span class="p-accent">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Nulla, magni consequuntur. Veniam expedita nesciunt saepe possimus, ex cum consequatur rem in inventore modi iure, assumenda amet dolore. Ullam, aperiam quo.</p>
-                <p><span class="p-accent">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Nulla, magni consequuntur. Veniam expedita nesciunt saepe possimus, ex cum consequatur rem in inventore modi iure, assumenda amet dolore. Ullam, aperiam quo.</p>
-                <p><span class="p-accent">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Nulla, magni consequuntur. Veniam expedita nesciunt saepe possimus, ex cum consequatur rem in inventore modi iure, assumenda amet dolore. Ullam, aperiam quo.</p>
+                
             </div>
         </section>
         <section id="services">
@@ -87,23 +88,52 @@
                     <!-- Form Inputs. Each input must have a name="" attribute -->
                     
                     <div class="inner-form form-left">
-                        <label for="first-name">First Name</label>
+                        <label for="first-name" class="form-label">First Name</label>
                         <input type="text" name="first-name" id="first-name" placeholder="Your first name" autocomplete="first name" required>
                     
                         
-                        <label for="email">Email</label>
+                        <label for="email" class="form-label">Email</label>
                         <input type="email" name="email" id="email" placeholder="Your email"  required autocomplete="email">
                     </div>
                     
                     <div class="inner-form form-right">
-                        <label>Last Name</label>
+                        <label for="last-name" class="form-label">Last Name</label>
                         <input type="text" name="last-name" id="last-name" placeholder="Your last name" required autocomplete="last name">
-                        <label >Subject</label>
+                        <label for="subject" class="form-label">Subject</label>
                         <input type="text" name="subject" id="subject" placeholder="Subject"  required>
+                    </div>
+
+                    <div class="inner-form form-middle-top">
+                        <p class="form-label">What do you need?</p>
+                        <div class="check-box">
+                            <div class="center-box">
+                                <label for="recording" class="form-label">Recording</label>
+                                <input type="checkbox" id="recording" name="recording" value="recording">
+                            </div>
+                            <div class="center-box">
+                                <label for="mixing" class="form-label">Mixing</label>
+                                <input type="checkbox" id="mixing" name="mixing" value="mixing">
+                            </div>
+                            <div class="center-box">
+                                <label for="mastering" class="form-label">Mastering</label>
+                                <input type="checkbox" id="mastering" name="mastering" value="mastering">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner-form form-middle-bottom">
+                        <label for="genre" class="form-label">What genre is the project?</label>
+                        <select name="genre" id="genre">
+                            <option value="select" selected disabled>Select an option</option>
+                            <option value="rap">Hip-Hop/Rap</option>
+                            <option value="rock">Rock</option>
+                            <option value="pop">Pop</option>
+                            <option value="jazz">Jazz</option>
+                            <option value="other">Other</option>
+                        </select>
                     </div>
                     
                     <div class="inner-form form-bottom">
-                        <label for="message">Message</label>
+                        <label for="message" class="form-label">Message</label>
                         <textarea name="message" id="message" placeholder="Your message" rows="6" required></textarea>
                         <!-- Honeypot Spam Protection -->
                         <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
