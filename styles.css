@@ -75,16 +75,14 @@ nav ul a:hover, nav ul a:focus {
 
 
 
-#about {
-    padding-top: 3rem;
+#book {
+    padding-top: 5rem;
     text-align: center;
     margin-bottom: 4rem;
+    
 }
 
-.about-text {
-    margin: 0 auto;
-    max-width: 600px;
-}
+
 
 #services {
     text-align: center;
@@ -192,11 +190,7 @@ footer {
     padding: 1rem;
 }
 
-#links {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
+
 
 /* Images */
 
@@ -351,6 +345,24 @@ form label {
 
 #submit-btn:hover {
     cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    font-size: .9rem;
+}
+
+#built-by {
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+#built-by:hover, #built-by:focus {
+    opacity: .7;
 }
 
 
