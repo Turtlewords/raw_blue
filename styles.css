@@ -23,7 +23,7 @@ html {
 body {
     font-family: "Pontano Sans", serif;
     background: #0504aa;
-    color: whitesmoke;
+    color: #dac0a7;
     background-repeat: no-repeat;
     margin: 0;
 }
@@ -31,7 +31,7 @@ body {
 
 
 header {
-    background-color: white;
+    background-color: #dac0a7;
     margin-bottom: 2rem;
     width: 100%;
     border-bottom: 2px solid black;
@@ -100,7 +100,7 @@ nav ul a:hover, nav ul a:focus {
 
 .service {
     text-align: center;
-    background-color: whitesmoke;
+    background-color: #dac0a7;
     color: black;
     width: 40%;
     max-width: 250px;
@@ -153,7 +153,7 @@ h2 {
 h2:before, 
 h2:after {
     content: "";
-    border-top: 0.3em double whitesmoke;
+    border-top: 0.3em double #dac0a7;
     align-self: center;
 }
 
