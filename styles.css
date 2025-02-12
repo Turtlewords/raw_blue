@@ -88,6 +88,7 @@ nav ul a:hover, nav ul a:focus {
 #services {
     text-align: center;
     padding-top: 3rem;
+    background-color: #dac0a7;
 }
 
 .service-container {
@@ -99,8 +100,8 @@ nav ul a:hover, nav ul a:focus {
 
 .service {
     text-align: center;
-    background-color: #dac0a7;
-    color: black;
+    background-color: #0504aa;
+    color: #dac0a7;
     width: 40%;
     max-width: 250px;
     border-radius: 1rem;
@@ -130,7 +131,8 @@ nav ul a:hover, nav ul a:focus {
 
 #contact {
     text-align: center;
-    padding-top: 3rem;
+    padding: 3rem 0;
+    background-color: #444552;
 }
 
 /* Typography */
@@ -156,6 +158,18 @@ h2:after {
 h3 {
     font-size: clamp(1.25rem, 1.25rem + 1vw, 2rem);
 }
+
+#services h2 {
+    color: #0504aa;
+}
+
+#services h2:before, 
+#services h2:after {
+    content: "";
+    border-top: 0.3em double #0504aa;
+    align-self: center;
+}
+
 
 p {
     font-size: clamp(1.4rem, 1.4rem + 1vw, 2rem);
@@ -185,7 +199,7 @@ p {
 
 footer {
    margin-top: 1rem;
-    padding: 1rem;
+    padding: .5rem;
 }
 
 
