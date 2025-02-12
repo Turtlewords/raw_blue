@@ -170,6 +170,17 @@ h3 {
     align-self: center;
 }
 
+#contact h2 {
+    color: whitesmoke;
+}
+
+#contact h2:before, 
+#contact h2:after {
+    content: "";
+    border-top: 0.3em double whitesmoke;
+    align-self: center;
+}
+
 
 p {
     font-size: clamp(1.4rem, 1.4rem + 1vw, 2rem);
