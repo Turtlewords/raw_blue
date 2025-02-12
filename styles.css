@@ -181,6 +181,10 @@ h3 {
     align-self: center;
 }
 
+.service p {
+    padding: 0;
+    font-size: clamp(1rem, 1rem + 1vw, 2rem);
+}
 
 p {
     font-size: clamp(1.4rem, 1.4rem + 1vw, 2rem);
